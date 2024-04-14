@@ -53,7 +53,7 @@ class NewThread extends Thread {
     @Override
     public void run() {
         super.run();
-        System.out.println("Результат создания класса NewThread расширяющего Thread: " + getName());
+        System.out.println("Результат создания класса NewThread, расширяющего Thread: " + getName());
     }
 }
 
