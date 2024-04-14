@@ -13,7 +13,7 @@ public class Task8_6_1 {
                 Решение:\s""");
 
         // Создаём класс NewThread расширяющий Thread
-        System.out.println("Создаём класс NewThread расширяющий Thread: ");
+        System.out.println("Создаём класс NewThread, расширяющий Thread: ");
         NewThread thread = new NewThread();
         thread.start();
         thread.join(); // Дожидаемся завершения потока
